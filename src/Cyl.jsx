@@ -1,7 +1,7 @@
 import { useTexture } from "@react-three/drei";
 import React, { useRef } from "react";
 import * as THREE from "three";
-import img from "../public/coack.webp";
+import img from "../public/digix.jpg";
 import { useFrame } from "@react-three/fiber";
 const Cyl = () => {
   let tex = useTexture(img);
